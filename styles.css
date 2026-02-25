@@ -151,10 +151,12 @@ article p {
 	font-size: 1.2rem;
 	color: #555;
 }
+
 .text-side a {
 	font-size: 2rem;
 	color: #df8714;
 }
+
 .text-side i {
 	font-size: 2rem;
 	color: #df8714;
@@ -332,7 +334,7 @@ article p {
 .img-custom {
 	height: 580px;
 	width: 80%;
-	margin-bottom: 15px;   
+	margin-bottom: 15px;
 	border: 10px solid #fefae0;
 	object-fit: cover;
 }
@@ -341,7 +343,7 @@ article p {
 @media screen and (max-width: 420px) {
 	.img-custom {
 		width: 100%;
-		height: 600px;
+		height: 620px;
 	}
 
 	.contact-p {
@@ -349,7 +351,10 @@ article p {
 	}
 }
 
-.vid-custom{
+.vid-custom {
+	margin-bottom: 15px;
+	border: 10px solid #fefae0;
+	object-fit: cover;
 	height: 580px;
 	width: 100%;
 }
@@ -903,25 +908,29 @@ h1 {
 }
 
 .type-list {
-    list-style: none;           /* elimină punctele default */
-    padding: 0;
-    margin: 0;
+	list-style: none;
+	/* elimină punctele default */
+	padding: 0;
+	margin: 0;
 }
 
 .type-list li {
-    position: relative;
-    padding-left: 25px;         /* spațiu pentru icon / punct personalizat */
-    margin-bottom: 10px;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
+	position: relative;
+	padding-left: 25px;
+	/* spațiu pentru icon / punct personalizat */
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
 }
 
 /* adaugă un icon sau punct personalizat */
 .type-list li::before {
-    content: "✔";               /* poți schimba cu "•" sau emoji "🟢" */
-    position: absolute;
-    left: 0;
-    color: #28a745;             /* verde Bootstrap */
-    font-weight: bold;
+	content: "✔";
+	/* poți schimba cu "•" sau emoji "🟢" */
+	position: absolute;
+	left: 0;
+	color: #28a745;
+	/* verde Bootstrap */
+	font-weight: bold;
 }
