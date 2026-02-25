@@ -331,7 +331,7 @@ article p {
 
 .img-custom {
 	height: 580px;
-	width: 100%;
+	width: 80%;
 	margin-bottom: 15px;   
 	border: 10px solid #fefae0;
 	object-fit: cover;
@@ -341,7 +341,7 @@ article p {
 @media screen and (max-width: 420px) {
 	.img-custom {
 		width: 100%;
-		height: 500px;
+		height: 600px;
 	}
 
 	.contact-p {
@@ -349,6 +349,18 @@ article p {
 	}
 }
 
+.vid-custom{
+	height: 580px;
+	width: 100%;
+}
+
+@media screen and (max-width: 420px) {
+	.vid-custom {
+		width: 100%;
+		height: 600px;
+	}
+
+}
 
 .inputCheckBox {
 	position: fixed;
